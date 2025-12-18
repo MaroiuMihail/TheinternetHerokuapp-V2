@@ -110,9 +110,11 @@ src
 mvn test
 ```
 
-### Run only Smoke Suite
+### Run Smoke Suite only
 
-You can run the `SmokeUserFlowsTest` class directly from your IDE or configure it as a TestNG suite.
+```bash
+mvn -Dtest=SmokeUserFlowsTest test
+
 
 ---
 
