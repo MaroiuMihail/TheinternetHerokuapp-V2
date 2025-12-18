@@ -64,6 +64,6 @@ public class SmokeUserFlowsTest extends BaseTest {
         alerts.triggerJsConfirm();
         alerts.dismissAlert();
 
-        Assert.assertEquals(alerts.getResultText(), "You clicked: Cancel");
+       Assert.assertEquals(alerts.getResultText(), "You clicked: Cancel");
     }
 }
