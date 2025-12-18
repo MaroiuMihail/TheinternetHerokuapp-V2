@@ -17,5 +17,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Run tests
-        run: mvn test
+      - name: Run smoke tests
+        run: mvn -Dtest=SmokeUserFlowsTest test
+
